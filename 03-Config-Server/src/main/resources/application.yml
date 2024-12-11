@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 03-Config-Server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Ajay-Babare/Config_Props.git
+ 
+server:
+  port: 8888         
